@@ -23,15 +23,15 @@ public class Ice1 {
         }
       
         
-        Card cardChoosen = new Card();
+        Card cardtaken = new Card();
         
-        cardChoosen.setValue(5);
-        cardChoosen.setSuits("Spades");
+        cardtaken.setValue(5);
+        cardtaken.setSuits("Spades");
         
         boolean found = false;
         
         for (Card magicHand1 : magicHand) {
-            if (magicHand1.getValue() == cardChoosen.getValue() && magicHand1.getSuits().equalsIgnoreCase(cardChoosen.getSuits())) {
+            if (magicHand1.getValue() == cardtaken.getValue() && magicHand1.getSuits().equalsIgnoreCase(cardtaken.getSuits())) {
                 found = true;
                break;
             }

@@ -1,13 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ice1;
 
-/** define card value and suits
- * 
- *
+/** 
  * @author Edwin Johnson
  */
 public class Card 
@@ -24,9 +18,7 @@ public class Card
         return value;
     }
 
-    /**
-     * @param value the value to set
-     */
+    
     public void setValue(int value) {
         this.value = value;
     }
@@ -44,10 +36,7 @@ public class Card
     public void setSuits(String suits) {
         this.suits = suits;
     }
-   //number
-    
-    //method for suits
-    @Override
+   
     public String toString(){
         return "Card: " + this.value + " " + this.suits;
     }
